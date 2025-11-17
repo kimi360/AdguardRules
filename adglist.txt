@@ -1,5 +1,5 @@
 ! Title: Kimi's adblock list
-! Version: 202511171201
+! Version: 202511171205
 ! Description: 自用的 Adguard 广告过滤规则
 ! Author: kimi360
 ! Expires: 1 day
