@@ -1,7 +1,5 @@
 name: Merge GFW List
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   push:
     branches: [ "main" ]
     paths: [ "filter/**", ".github/workflows/buildAdguardList.yml" ]
