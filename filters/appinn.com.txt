@@ -1,0 +1,9 @@
+! ---小众软件---
+! 头部置顶推广文章
+appinn.com##article:has(header > div.post-info > span:contains(FD))
+appinn.com##article:has(header > div.post-info > span:contains(团购))
+appinn.com##article:has(header > div.post-info > span:contains(在线工具))
+! 底部切换夜间模式按钮
+appinn.com##.darkmysite_switch
+! 底部版权信息
+appinn.com##.copyrights
