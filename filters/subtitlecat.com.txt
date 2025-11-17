@@ -1,0 +1,3 @@
+! ---字幕猫---
+! 拦截页面搜索栏下面和列表底部的banner
+subtitlecat.com##a > div.t-banner-inner
