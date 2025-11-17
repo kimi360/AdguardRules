@@ -1,8 +1,8 @@
-name: Merge GFW List
+name: Build Adguard List
 on:
   push:
     branches: [ "main" ]
-    paths: [ "filter/**", ".github/workflows/buildAdguardList.yml" ]
+    paths: [ "filters/**", ".github/workflows/buildAdguardList.yml" ]
   workflow_dispatch: ~
 
 env:
