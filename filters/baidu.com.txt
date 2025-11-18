@@ -1,0 +1,5 @@
+! ---百度---
+! 搜索框下的ai面板
+baidu.com##div[class^="panel-list"]
+! 页面中下部的推荐内容
+baidu.com###s_wrap
