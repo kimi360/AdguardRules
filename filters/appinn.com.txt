@@ -7,3 +7,5 @@ appinn.com##article:has(header > div.post-info > span:contains(在线工具))
 appinn.com##.darkmysite_switch
 ! 底部版权信息
 appinn.com##.copyrights
+! 论坛cookies弹窗提示
+meta.appinn.net##div[aria-label="cookieconsent"]
