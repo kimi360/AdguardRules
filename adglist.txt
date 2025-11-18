@@ -1,5 +1,5 @@
 ! Title: Kimi's adblock list
-! Version: 202511181114
+! Version: 202511181346
 ! Description: 自用的 Adguard 广告过滤规则
 ! Author: kimi360
 ! Expires: 1 day
@@ -17,6 +17,7 @@ appinn.com##article:has(header > div.post-info > span:contains(团购))
 appinn.com##article:has(header > div.post-info > span:contains(在线工具))
 appinn.com##.darkmysite_switch
 appinn.com##.copyrights
+meta.appinn.net##div.welcome-link-banner-connectors
 meta.appinn.net##div[aria-label="cookieconsent"]
 baidu.com##div[class^="panel-list"]
 baidu.com###s_wrap
