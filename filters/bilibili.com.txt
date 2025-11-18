@@ -9,6 +9,9 @@ bilibili.com##div.bili-header__bar > ul.left-entry > li:not(:first-child)
 ! 首页头部右侧菜单大会员、动态
 bilibili.com##div.bili-header__bar > ul.right-entry > div.vip-wrap
 bilibili.com##div.bili-header__bar > ul.right-entry > li:has(span:contains(动态))
+! 去除分类右侧的部分及之间的分割线
+bilibili.com#$#div.channel-items__left{ padding-right: 0 !important;border-right: none !important; }
+bilibili.com##div.channel-items__right
 ! 修复最后一个推荐视频下沉问题
 bilibili.com#$#.recommended-container_floor-aside .container > * { margin-top: 0!important; }
 ! 详情页视频下侧工具栏右边部分
