@@ -1,17 +1,10 @@
 ! Title: Kimi's adblock list
-! Version: 202511181455
+! Version: 202511181707
 ! Description: 自用的 Adguard 广告过滤规则
 ! Author: kimi360
 ! Expires: 1 day
 ! Homepage: https://github.com/kimi360/AdguardRules
 ! License: https://github.com/kimi360/AdguardRules/blob/main/LICENSE
-192.168.1.1###admin-PC > div:not(div.title)
-192.168.1.1#$##admin-PC { position: fixed;top: 40%;left: 50%;transform: translate(-50%, -50%);padding-top: 0px!important;}
-192.168.1.1#$##bd:has(#rtloginform) + div#ft { position: fixed;bottom: 0px;left: 50%;transform: translate(-50%);}
-192.168.1.1###ft > p > a:contains(官方微博)
-192.168.1.1###ft > p > a:contains(官方微博) + span
-192.168.1.1###ft > p > a:contains(官方微信)
-192.168.1.1###ft > p > a:contains(官方微信) + span
 appinn.com##article:has(header > div.post-info > span:contains(FD))
 appinn.com##article:has(header > div.post-info > span:contains(团购))
 appinn.com##article:has(header > div.post-info > span:contains(在线工具))
