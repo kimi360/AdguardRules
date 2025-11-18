@@ -37,7 +37,7 @@ build_adguard_list() {
     {
       sed "1a ! Version: $(date +'%Y%m%d%H%M')" "$HEAD_FILE"
       if (( ${#TXT_FILES[@]} )); then
-          cat "${TXT_FILES[@]}" | grep -vE '^!($| )'
+          awk '{print}' "${TXT_FILES[@]}" | grep -vE '^!($| )'
       fi
     } > "$MERGED_FILE"
 
