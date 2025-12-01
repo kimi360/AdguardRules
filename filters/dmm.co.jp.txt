@@ -1,0 +1,3 @@
+! ---DMM---
+! 详情页弹窗
+dmm.co.jp##div.popup-mono-campaign
