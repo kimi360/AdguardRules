@@ -1,5 +1,5 @@
 ! Title: Kimi's adblock list
-! Version: 202603130930
+! Version: 202603130950
 ! Description: 自用的 Adguard 广告过滤规则
 ! Author: kimi360
 ! Expires: 1 day
@@ -26,7 +26,7 @@ bilibili.com#$#div.channel-items__left{ padding-right: 0 !important;border-right
 bilibili.com##div.channel-items__right
 bilibili.com#$#.recommended-container_floor-aside .container > * { margin-top: 0!important; }
 bilibili.com###arc_toolbar_report > div.video-toolbar-right
-dmm.co.jp##div.popup-mono-campaign
+dmm.co.jp#%#//scriptlet('trusted-click-element', 'a[href*="age_check"][href*="declared=yes"]')
 next.itellyou.cn###info-header-modal
 next.itellyou.cn##div.modal-backdrop.fade.show
 subtitlecat.com##a > div.t-banner-inner
