@@ -1,4 +1,6 @@
 ! ---小众软件---
+! 头部导航栏上方的图片
+appinn.com##.container.clearfix > :not(#navigation)
 ! 头部置顶推广文章
 appinn.com##article:has(header > div.post-info > span:contains(FD))
 # appinn.com##article:has(header > div.post-info > span:contains(团购))
